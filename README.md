@@ -51,9 +51,9 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 ## USB Mapping
 USB ports map:
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/usbports.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/Dell_OptiPlex_7080_MT.png)
 
-* HS01 and HS10 have been blocked due to the MacOS USB ports limit.
+* HS09 and HS10 have been blocked due to the MacOS USB ports limit.
 * Check [Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html) for more infos on USB mapping.
 
 
