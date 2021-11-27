@@ -21,12 +21,11 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 
 ## Working
-* CPU Turbo Boost & Thermal Throttling
-* Radeon™ RX 560 & iGPU acceleration
-* ALC 255 audio
-* All USB Ports
-* LAN & Wireless Network
-* Airdrop & Airplay
+* CPU Turbo Boost & SpeedStep
+* Radeon™ RX 6600 XT & iGPU acceleration
+* ALC 256 audio
+* USB Ports (exept 2 rear USB 2.0 ports due to 15 ports limit)
+* 10G LAN & Wireless Network
 * Sleep & Wakeup
 
 
@@ -43,15 +42,15 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 
-## BIOS Settings via GRUB
+## BIOS Settings via RU
 * Set Pre-Allocated DVMT to 64M: 
-***setup_var 0x8DC 0x02***
+***00F5 0x02***
 * Disable CFG lock: 
-***setup_var 0x5BE 0x00***
+***003E 0x00***
 
 
 ## USB Mapping
-* After MacOS Big Sur 11.3, the USB ports map as follows:
+USB ports map:
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/usbports.png)
 
 * HS01 and HS10 have been blocked due to the MacOS USB ports limit.
@@ -60,9 +59,5 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 
 ## Changelog
 
-**2021-11-09**
-* Updated Opencore to 0.7.5
-* Updated Kexts to the latest version
-* Patched GPRW to improve sleep
-* Changed platform-id to 0x3E980003 for better compatibility
-* Fixed Apple Chime (by [antonioclb](https://github.com/acidanthera/bugtracker/issues/1012#issuecomment-708214245))
+**2021-11-27**
+* initial upload
