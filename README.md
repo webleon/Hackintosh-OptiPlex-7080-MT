@@ -5,8 +5,10 @@
 **Opencore Bootloader 0.7.5. Tested on Monterey 12.1 beta**
 
 
+
 ## Introdution
 You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMBIOS) before login to your iCloud account.
+
 
 
 ## Hardware Specs
@@ -20,6 +22,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **Wi-Fi & Bluetooth**: BCM94360NG
 
 
+
 ## Working
 * CPU Turbo Boost & SpeedStep
 * Radeon™ RX 6600 XT & iGPU acceleration
@@ -29,9 +32,9 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Sleep & Wakeup
 * Airdrop / Airplay / Sidecar / Handoff
 
-
 ## Not working
 * 
+
 
 
 ## BIOS Settings
@@ -65,6 +68,7 @@ USB ports map:
 * Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake
 
 
+
 ## X540-T2 eeprom modification
 * [Original Guide](https://forums.macrumors.com/threads/modify-retail-intel-10gbe-nics-to-use-small-tree-macos-drivers.1968456/)
 * Flashing eeprom could brick the NIC card, do it at your own risk.
@@ -75,6 +79,9 @@ sudo ethtool -E <eth1 name> magic 0x15288086 offset 0x48f value 0x00
 sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48e value 0x0a
 sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 ```
+
+
+
 ## Changelog
 
 **2021-11-27**
