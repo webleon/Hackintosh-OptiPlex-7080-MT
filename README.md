@@ -65,7 +65,16 @@ USB ports map:
 * Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake
 
 
-
+## X540-T2 eeprom modification
+* [Original Guide](https://forums.macrumors.com/threads/modify-retail-intel-10gbe-nics-to-use-small-tree-macos-drivers.1968456/)
+* Flashing eeprom could brick the NIC card, do it at your own risk.
+* For my X540-T2 cards, the commands look like this:
+```
+sudo ethtool -E <eth1 name> magic 0x15288086 offset 0x48e value 0x0a
+sudo ethtool -E <eth1 name> magic 0x15288086 offset 0x48f value 0x00
+sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48e value 0x0a
+sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
+```
 ## Changelog
 
 **2021-11-27**
