@@ -1,6 +1,6 @@
 # Hackintosh-OptiPlex-7080-MT
 
-![](https://raw.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2021-11-27.png)
 
 **Opencore Bootloader 0.7.5. Tested on Monterey 12.1 beta**
 
