@@ -38,7 +38,6 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * System Configuration → SATA Operation: ***AHCI***
 * Secure Boot → Secure Boot Enable: ***Disabled***
 * Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
-* ~~Power Management → Block Sleep: ***check***~~
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 
