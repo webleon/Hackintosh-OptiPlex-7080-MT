@@ -13,7 +13,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **Desktop Computer**: [Dell OptiPlex 7080 Tower](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7080-tower-and-small-form-factor/spd/optiplex-7080-desktop) 
 * **CPU**:  [Intel® Core™ i7-10700](https://ark.intel.com/content/www/us/en/ark/products/199316/intel-core-i710700-processor-16m-cache-up-to-4-80-ghz.html)
 * **iGPU**: Intel® UHD Graphics 630
-* **GPU**: AMD Radeon™ RX 6600 XT (low profile)
+* **GPU**: [AMD Radeon RX 6600 XT Challenger ITX 8GB] (https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20XT%20Challenger%20ITX%208GB/)
 * **RAM**: 64GB DDR4 2933 Daul Channel
 * **HDD**: WD Blue SN550 NVMe SSD 1T
 * **LAN**: Intel X540-T2 / Intel I219LM11
