@@ -42,11 +42,13 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 
-## BIOS Settings via RU
-* Set Pre-Allocated DVMT to 64M: 
-***00F5 0x02***
+## Modify DVMT & CFG_lock settings
+* BIOS/UEFI editor [ru.efi](https://github.com/JamesAmiTw/ru-uefi)
 * Disable CFG lock: 
-***003E 0x00***
+set ***003E*** to ***0x00*** under ***CPUSetup***
+* 64M Pre-Allocated DVMT: 
+set ***00F5*** to ***0x02*** under ***SASetup***
+
 
 
 ## USB Mapping
