@@ -1,6 +1,6 @@
 # Hackintosh-OptiPlex-7080-MT
 
-![](https://raw.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2021-11-27.png)
 
 **Opencore Bootloader 0.7.5. Tested on Monterey 12.1 beta**
 
@@ -53,8 +53,15 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 USB ports map:
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/Dell_OptiPlex_7080_MT.png)
 
-* HS09 and HS10 have been blocked due to the MacOS USB ports limit.
+* HS09 and HS10 disabled due to the MacOS USB ports limit.
 * Check [Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html) for more infos on USB mapping.
+
+
+## ACPI tweaks
+* Create general SSDTs using [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime) 
+* Add [SSDT-Shutdown.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html) to fix shutdown
+* Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake
+
 
 
 ## Changelog
