@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+# Hackintosh-OptiPlex-7080-MT
 
-You can use the [editor on GitHub](https://github.com/webleon/Hackintosh-OptiPlex-7080-MT/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![](https://raw.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Opencore Bootloader 0.7.5. Tested on Monterey 12.1 beta**
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Introdution
+You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMBIOS) before login to your iCloud account.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Hardware Specs
+* **Desktop Computer**: [Dell OptiPlex 7080 Tower](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7080-tower-and-small-form-factor/spd/optiplex-7080-desktop) 
+* **CPU**:  [Intel® Core™ i7-10700](https://ark.intel.com/content/www/us/en/ark/products/199316/intel-core-i710700-processor-16m-cache-up-to-4-80-ghz.html)
+* **iGPU**: Intel® UHD Graphics 630
+* **GPU**: AMD Radeon™ RX 6600 XT (low profile)
+* **RAM**: 64GB DDR4 2933 Daul Channel
+* **HDD**: WD Blue SN550 NVMe SSD 1T
+* **LAN**: Intel X540-T2 / Intel I219LM11
+* **Wi-Fi & Bluetooth**: BCM94360NG
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Working
+* CPU Turbo Boost & Thermal Throttling
+* Radeon™ RX 560 & iGPU acceleration
+* ALC 255 audio
+* All USB Ports
+* LAN & Wireless Network
+* Airdrop & Airplay
+* Sleep & Wakeup
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## Not working
+* 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+## BIOS Settings
+* General → Advanced Boot Options: ***uncheck***
+* System Configuration → SATA Operation: ***AHCI***
+* Secure Boot → Secure Boot Enable: ***Disabled***
+* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
+* ~~Power Management → Block Sleep: ***check***~~
+* Virtualization Support → VT for Direct I/O: ***uncheck***
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/webleon/Hackintosh-OptiPlex-7080-MT/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## BIOS Settings via GRUB
+* Set Pre-Allocated DVMT to 64M: 
+***setup_var 0x8DC 0x02***
+* Disable CFG lock: 
+***setup_var 0x5BE 0x00***
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## USB Mapping
+* After MacOS Big Sur 11.3, the USB ports map as follows:
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7070-SFF/master/images/usbports.png)
+
+* HS01 and HS10 have been blocked due to the MacOS USB ports limit.
+* Check [Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html) for more infos on USB mapping.
+
+
+## Changelog
+
+**2021-11-09**
+* Updated Opencore to 0.7.5
+* Updated Kexts to the latest version
+* Patched GPRW to improve sleep
+* Changed platform-id to 0x3E980003 for better compatibility
+* Fixed Apple Chime (by [antonioclb](https://github.com/acidanthera/bugtracker/issues/1012#issuecomment-708214245))
