@@ -57,6 +57,15 @@ USB ports map:
 * Check [Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html) for more infos on USB mapping.
 
 
+## ACPI tweaks
+SSDTTime
+
+SSDT-HPET.aml
+
+SSDT-GPRW.aml
+
+SSDT-Shutdown.aml
+
 ## Changelog
 
 **2021-11-27**
