@@ -1,6 +1,6 @@
 # Hackintosh-OptiPlex-7080-MT
 
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2021-11-27.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2021-11.png)
 
 **Opencore Bootloader 0.7.5. Tested on Monterey 12.1 beta**
 
@@ -66,6 +66,7 @@ USB ports map:
 * Create general SSDTs using [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime) 
 * Add [SSDT-Shutdown.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html) to fix shutdown
 * Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake
+* Add [SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html) to fix IRQ conflicts
 
 
 
