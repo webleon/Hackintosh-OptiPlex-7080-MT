@@ -58,7 +58,7 @@ set ***00F5*** to ***0x02*** under ***SASetup***
 USB ports map:
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/Dell_OptiPlex_7080_MT.png)
 
-* HS09 and HS10 disabled due to the MacOS USB ports limit.
+* SS07 and SS08 disabled due to the MacOS USB ports limit.
 * Check [Dortania's guide](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html) for more infos on USB mapping.
 
 
