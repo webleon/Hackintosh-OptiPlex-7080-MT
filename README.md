@@ -30,15 +30,14 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * USB Ports (exept 2 rear USB 2.0 ports due to 15 ports limit)
 * 10G LAN & Wireless Network
 * Sleep & Wakeup
-* Airdrop / Airplay / Sidecar / Handoff
+* Airdrop / Airplay /  Handoff
 
 ## Not working
-* 
-
+* Sidecar
+* DRM Content in Safari
 
 
 ## BIOS Settings
-* General → Advanced Boot Options: ***uncheck***
 * System Configuration → SATA Operation: ***AHCI***
 * Secure Boot → Secure Boot Enable: ***Disabled***
 * Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
