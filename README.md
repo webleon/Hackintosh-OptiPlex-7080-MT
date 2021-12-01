@@ -37,10 +37,14 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * DRM Content in Safari
 
 
-## BIOS Settings
+## UEFI Settings
+* System Configuration → Serial Port: ***Disabled***
 * System Configuration → SATA Operation: ***AHCI***
-* Secure Boot → Secure Boot Enable: ***Disabled***
-* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
+* Video → Multi Display: ***Enable Multi-Display***
+* Video → Primary Display: ***Auto***
+* Security → PTT Security: ***uncheck***
+* Secure Boot → Secure Boot Enable: ***uncheck***
+* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***uncheck***
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 
