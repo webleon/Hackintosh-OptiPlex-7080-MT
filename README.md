@@ -33,8 +33,8 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Airdrop / Airplay /  Handoff
 
 ## Not working
-* Sidecar
-* DRM Content in Safari
+* Sidecar (needs T2 chip)
+* DRM Content in Safari (needs T2 chip)
 
 
 ## UEFI Settings
