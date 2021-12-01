@@ -27,7 +27,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * CPU Turbo Boost & SpeedStep
 * Radeon™ RX 6600 XT & iGPU acceleration
 * ALC 256 audio
-* USB Ports (exept 2 rear USB 2.0 ports due to 15 ports limit)
+* USB Ports (rear USB 2.0 ports disabled due to macOS ports limit)
 * 10G LAN & Wireless Network
 * Sleep & Wakeup
 * Airdrop / Airplay /  Handoff
