@@ -26,7 +26,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 ## Working
 * CPU Turbo Boost & SpeedStep
 * Radeon™ RX 6600 XT & iGPU acceleration
-* ALC 256 audio
+* Internal Speaker / Front panel headphone out / Back panel lineout
 * USB Ports (rear USB 2.0 ports disabled due to macOS ports limit)
 * 10G LAN & Wireless Network
 * Sleep & Wakeup
