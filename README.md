@@ -26,22 +26,25 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 ## Working
 * CPU Turbo Boost & SpeedStep
 * Radeon™ RX 6600 XT & iGPU acceleration
-* ALC 256 audio
-* USB Ports (exept 2 rear USB 2.0 ports due to 15 ports limit)
+* Internal Speaker / Front panel headphone out / Back panel lineout
+* USB Ports (rear USB 2.0 ports disabled due to macOS ports limit)
 * 10G LAN & Wireless Network
 * Sleep & Wakeup
-* Airdrop / Airplay / Sidecar / Handoff
+* Airdrop / Airplay /  Handoff
 
 ## Not working
-* 
+* Sidecar (needs T2 chip)
+* DRM Content in Safari (needs T2 chip)
 
 
-
-## BIOS Settings
-* General → Advanced Boot Options: ***uncheck***
+## UEFI Settings
+* System Configuration → Serial Port: ***Disabled***
 * System Configuration → SATA Operation: ***AHCI***
-* Secure Boot → Secure Boot Enable: ***Disabled***
-* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Disabled***
+* Video → Multi Display: ***Enable Multi-Display***
+* Video → Primary Display: ***Auto***
+* Security → PTT Security: ***uncheck***
+* Secure Boot → Secure Boot Enable: ***uncheck***
+* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***uncheck***
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 
 
