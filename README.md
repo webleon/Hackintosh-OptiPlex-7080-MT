@@ -74,8 +74,8 @@ USB ports map:
 
 
 ## X540-T2 eeprom modification
+### Flashing eeprom could brick the NIC card, do it at your own risk.
 * [Original Guide](https://forums.macrumors.com/threads/modify-retail-intel-10gbe-nics-to-use-small-tree-macos-drivers.1968456/)
-* Flashing eeprom could brick the NIC card, do it at your own risk.
 * For my X540-T2 cards, the commands look like this:
 ```
 sudo ethtool -E <eth1 name> magic 0x15288086 offset 0x48e value 0x0a
