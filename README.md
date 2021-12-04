@@ -67,7 +67,7 @@ USB ports map:
 
 ## ACPI tweaks
 * Create general SSDTs using [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime) 
-* Add [SSDT-Shutdown.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html) to fix shutdown
+* ~~Add [SSDT-Shutdown.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html) to fix shutdown~~
 * Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake
 * Add [SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html) to fix IRQ conflicts
 
@@ -90,3 +90,7 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 **2021-11-27**
 * initial upload
+
+**2021-12-04**
+* remove no longer needed SSDT-Shutdown.aml 
+* add [RadeonSensor](https://github.com/aluveitie/RadeonSensor) to show Radeon GPU temperature
