@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2021-11.png)
 
-**Opencore Bootloader 0.7.5. Tested on Monterey 12.1**
+**Opencore Bootloader 0.7.6. Tested on Monterey 12.1**
 
 
 
@@ -37,6 +37,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * DRM Content in Safari (needs T2 chip)
 
 
+
 ## UEFI Settings
 * System Configuration → Serial Port: ***Disabled***
 * System Configuration → SATA Operation: ***AHCI***
@@ -46,6 +47,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Secure Boot → Secure Boot Enable: ***uncheck***
 * Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***uncheck***
 * Virtualization Support → VT for Direct I/O: ***uncheck***
+
 
 
 ## Modify DVMT & CFG_lock settings
@@ -87,8 +89,6 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 
 ## Changelog
-
-
 
 **2021-11-27**
 * initial upload
