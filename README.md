@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2021-11.png)
 
-**Opencore Bootloader 0.7.5. Tested on Monterey 12.1 beta**
+**Opencore Bootloader 0.7.5. Tested on Monterey 12.1**
 
 
 
@@ -88,9 +88,17 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 ## Changelog
 
+
+
 **2021-11-27**
 * initial upload
 
 **2021-12-04**
 * remove no longer needed SSDT-Shutdown.aml 
 * add [RadeonSensor](https://github.com/aluveitie/RadeonSensor) to show Radeon GPU temperature
+
+**2021-12-15**
+* update to Opencore 0.7.6
+* tested on Monterey 12.1 release
+* add iGPU config
+* minor updates
