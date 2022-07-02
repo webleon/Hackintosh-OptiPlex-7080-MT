@@ -18,7 +18,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **GPU**: [ASRock AMD Radeon RX 6600 XT Challenger ITX 8GB](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20XT%20Challenger%20ITX%208GB/)
 * **RAM**: 64GB DDR4 2933 Daul Channel
 * **HDD**: WD Blue SN550 NVMe SSD 1T
-* **LAN**: Intel X540-T2 / Intel I219LM11
+* **LAN**: Intel X540-T2 / AQC107 / Intel I219LM11
 * **Wi-Fi & Bluetooth**: BCM94360NG
 
 
