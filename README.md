@@ -46,7 +46,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Security → PTT Security: ***uncheck***
 * Secure Boot → Secure Boot Enable: ***uncheck***
 * Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***uncheck***
-* Virtualization Support → VT for Direct I/O: ***uncheck***
+* Virtualization Support → VT for Direct I/O: ***check***
 
 
 
@@ -91,6 +91,7 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 ## Changelog
 
 **2022-07-02**
+* suport AQC107 10GbE LAN (VT for Direct I/O need to be enabled in UEFI)
 * update to Opencore 0.8.1
 * KEXTs up to date
 * other minor updates
