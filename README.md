@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2022-05.png)
 
-**Opencore Bootloader 0.8.0. Tested on Monterey 12.4**
+**Opencore Bootloader 0.8.1. Tested on Monterey 12.4**
 
 
 
@@ -90,9 +90,14 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 ## Changelog
 
+**2022-07-02**
+* update to Opencore 0.8.1
+* KEXT up to date
+* other minor updates
+
 **2022-05-23**
 * update to Opencore 0.8.0
-* tested on Monterey 12.45 release
+* tested on Monterey 12.4 release
 * minor updates
 
 **2021-12-15**
