@@ -92,7 +92,7 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 **2022-07-02**
 * update to Opencore 0.8.1
-* KEXT up to date
+* KEXTs up to date
 * other minor updates
 
 **2022-05-23**
