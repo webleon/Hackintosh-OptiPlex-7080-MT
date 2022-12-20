@@ -1,8 +1,8 @@
 # Hackintosh-OptiPlex-7080-MT
 
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2022-11.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2022-12.png)
 
-**Opencore Bootloader 0.8.5. Tested on Ventura 13.0**
+**Opencore Bootloader 0.8.7. Tested on Ventura 13.1**
 
 
 
@@ -89,6 +89,12 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 
 ## Changelog
+
+**2022-12-20**
+* update to Opencore 0.8.7
+* tested on Ventura 13.1
+* KEXTs up to date
+* other minor updates
 
 **2022-11-07**
 * update to Opencore 0.8.5
