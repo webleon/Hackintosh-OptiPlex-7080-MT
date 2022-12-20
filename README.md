@@ -70,7 +70,7 @@ USB ports map:
 ## ACPI tweaks
 * Create general SSDTs using [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime) 
 * ~~Add [SSDT-Shutdown.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/shutdown.html) to fix shutdown~~ no longer needed
-* Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake
+* ~~Add [SSDT-GPRW.aml](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html) to improve sleep / wake~~ no longer needed
 * Add [SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html) to fix IRQ conflicts
 
 
