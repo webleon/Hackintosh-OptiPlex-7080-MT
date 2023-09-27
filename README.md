@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2023-09.png)
 
-**Opencore Bootloader 0.8.7. Tested on Ventura 13.1**
+**Opencore Bootloader 0.9.5. Tested on Sonoma 14.0**
 
 
 
@@ -89,6 +89,12 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 
 ## Changelog
+
+**2023-09-26**
+* update to Opencore 0.9.5
+* tested on Sonoma 14.0
+* KEXTs up to date
+* other minor updates
 
 **2022-12-20**
 * update to Opencore 0.8.7
