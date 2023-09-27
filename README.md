@@ -90,6 +90,12 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 
 ## Changelog
 
+**2023-09-26**
+* update to Opencore 0.9.5
+* tested on Sonoma 14.0
+* KEXTs up to date
+* other minor updates
+
 **2022-12-20**
 * update to Opencore 0.8.7
 * tested on Ventura 13.1
