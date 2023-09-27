@@ -1,6 +1,6 @@
 # Hackintosh-OptiPlex-7080-MT
 
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2022-12.png)
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2023-09.png)
 
 **Opencore Bootloader 0.8.7. Tested on Ventura 13.1**
 
