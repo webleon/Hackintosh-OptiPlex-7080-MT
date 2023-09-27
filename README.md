@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2023-09.png)
 
-**Opencore Bootloader 0.8.7. Tested on Ventura 13.1**
+**Opencore Bootloader 0.9.5. Tested on Sonoma 14.0**
 
 
 
