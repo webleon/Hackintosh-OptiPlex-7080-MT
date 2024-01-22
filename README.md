@@ -1,8 +1,9 @@
 # Hackintosh-OptiPlex-7080-MT
 
-![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2024-01.png)
 
 **Opencore Bootloader 0.9.7. Tested on Sonoma 14.2.1**
+
+![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2024-01.png)
 
 
 
