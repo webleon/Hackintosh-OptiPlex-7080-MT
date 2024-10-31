@@ -96,7 +96,7 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 * update to Opencore 1.0.2
 * tested on Sequoia 15.1
 * KEXTs up to date
-* Optimize iGPU performance 
+* optimize iGPU performance 
 * other minor updates
 
 **2024-01-22**
