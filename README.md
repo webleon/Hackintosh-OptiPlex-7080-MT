@@ -1,7 +1,7 @@
 # Hackintosh-OptiPlex-7080-MT
 
 
-**Opencore Bootloader 0.9.7. Tested on Sonoma 14.2.1**
+**Opencore Bootloader 1.0.2. Tested on Sequoia 15.1**
 
 ![](https://raw.githubusercontent.com/webleon/Hackintosh-OptiPlex-7080-MT/main/images/iShot2024-10.png)
 
@@ -87,9 +87,17 @@ sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48e value 0x0a
 sudo ethtool -E <eth2 name> magic 0x15288086 offset 0x48f value 0x00
 ```
 
-
+## OpenCore-Legacy-Patcher
+* [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher) must be applied to get support for WPA Wi-Fi and Personal Hotspot on Broadcom Wi-Fi/BT cards.
 
 ## Changelog
+
+**2024-10-31**
+* update to Opencore 1.0.2
+* tested on Sequoia 15.1
+* KEXTs up to date
+* Optimize iGPU performance 
+* other minor updates
 
 **2024-01-22**
 * update to Opencore 0.9.7
